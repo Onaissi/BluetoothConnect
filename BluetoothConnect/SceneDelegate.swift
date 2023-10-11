@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreBluetooth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +18,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        let bluetoothManager = BluetoothManager(CBCentralManager())
+        let facade = BluetoothFacade(bluetoothManager: bluetoothManager)
+        let scanViewController = BluetoothScanViewController(BluetoothScanViewModel(bluetoothFacade: facade))
+        let nav = UINavigationController(rootViewController: scanViewController)
+        self.window?.rootViewController = nav
+        self.window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

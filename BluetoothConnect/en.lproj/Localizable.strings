@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  BluetoothConnect
+
+  Created by Ali Onaissi on 11/10/2023.
+  
+*/
+"scan_time" = "Scan time";
+"mac_address_asc" = "MAC address (ASC)";
+"name_sort" = "Name %@";
+"connected" = "Connected";
+"connecting" = "Connecting...";
+"disconnected" = "Disconnected";
+"sort_title" = "Sort";
+"descriptors" = "Descriptors: ";
+"service" = "service: ";
+"scan_for_devices" = "Scan for Devices";
+"scan" = "Scan";
+"scanning" = "Scanning...";
+"stop" = "Stop";
+
+
