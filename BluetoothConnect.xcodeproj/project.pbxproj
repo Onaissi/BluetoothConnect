@@ -17,7 +17,6 @@
 		17BD1C762AD25104004E8203 /* BluetoothConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1C752AD25104004E8203 /* BluetoothConnectUITests.swift */; };
 		17BD1C782AD25104004E8203 /* BluetoothConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1C772AD25104004E8203 /* BluetoothConnectUITestsLaunchTests.swift */; };
 		17BD1C862AD25125004E8203 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1C852AD25125004E8203 /* BluetoothManager.swift */; };
-		17BD1C882AD32AFF004E8203 /* BluetoothAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1C872AD32AFF004E8203 /* BluetoothAuthorization.swift */; };
 		17BD1C8A2AD330FD004E8203 /* BluetoothFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1C892AD330FD004E8203 /* BluetoothFacade.swift */; };
 		17BD1C8F2AD34590004E8203 /* BluetoothScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1C8D2AD34590004E8203 /* BluetoothScanViewController.swift */; };
 		17BD1C902AD34590004E8203 /* BluetoothScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BD1C8E2AD34590004E8203 /* BluetoothScanViewController.xib */; };
@@ -26,6 +25,16 @@
 		17BD1C9A2AD4507F004E8203 /* DeviceListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BD1C982AD4507F004E8203 /* DeviceListViewController.xib */; };
 		17BD1C9E2AD465C8004E8203 /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1C9C2AD465C8004E8203 /* DeviceTableViewCell.swift */; };
 		17BD1C9F2AD465C8004E8203 /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BD1C9D2AD465C8004E8203 /* DeviceTableViewCell.xib */; };
+		17BD1CA32AD4AA25004E8203 /* ShowDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1CA12AD4AA25004E8203 /* ShowDeviceViewController.swift */; };
+		17BD1CA42AD4AA25004E8203 /* ShowDeviceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BD1CA22AD4AA25004E8203 /* ShowDeviceViewController.xib */; };
+		17BD1CA82AD4F912004E8203 /* CBCharacteristicProperties+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1CA72AD4F912004E8203 /* CBCharacteristicProperties+extension.swift */; };
+		17BD1CAA2AD5E0B7004E8203 /* DeviceSortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1CA92AD5E0B7004E8203 /* DeviceSortable.swift */; };
+		17BD1CAE2AD65526004E8203 /* SortOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1CAC2AD65526004E8203 /* SortOptionsViewController.swift */; };
+		17BD1CAF2AD65526004E8203 /* SortOptionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BD1CAD2AD65526004E8203 /* SortOptionsViewController.xib */; };
+		17BD1CB22AD6FA84004E8203 /* PeripheralAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1CB12AD6FA84004E8203 /* PeripheralAdapter.swift */; };
+		17BD1CB52AD70D1B004E8203 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17BD1CB72AD70D1B004E8203 /* Localizable.strings */; };
+		17BD1CBF2AD710D2004E8203 /* MockBluetoothFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1CBE2AD710D2004E8203 /* MockBluetoothFacade.swift */; };
+		17BD1CC32AD71E4B004E8203 /* SortOptionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD1CC22AD71E4B004E8203 /* SortOptionsViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +69,6 @@
 		17BD1C752AD25104004E8203 /* BluetoothConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothConnectUITests.swift; sourceTree = "<group>"; };
 		17BD1C772AD25104004E8203 /* BluetoothConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		17BD1C852AD25125004E8203 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
-		17BD1C872AD32AFF004E8203 /* BluetoothAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothAuthorization.swift; sourceTree = "<group>"; };
 		17BD1C892AD330FD004E8203 /* BluetoothFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothFacade.swift; sourceTree = "<group>"; };
 		17BD1C8D2AD34590004E8203 /* BluetoothScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanViewController.swift; sourceTree = "<group>"; };
 		17BD1C8E2AD34590004E8203 /* BluetoothScanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BluetoothScanViewController.xib; sourceTree = "<group>"; };
@@ -69,6 +77,16 @@
 		17BD1C982AD4507F004E8203 /* DeviceListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceListViewController.xib; sourceTree = "<group>"; };
 		17BD1C9C2AD465C8004E8203 /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
 		17BD1C9D2AD465C8004E8203 /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceTableViewCell.xib; sourceTree = "<group>"; };
+		17BD1CA12AD4AA25004E8203 /* ShowDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDeviceViewController.swift; sourceTree = "<group>"; };
+		17BD1CA22AD4AA25004E8203 /* ShowDeviceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowDeviceViewController.xib; sourceTree = "<group>"; };
+		17BD1CA72AD4F912004E8203 /* CBCharacteristicProperties+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CBCharacteristicProperties+extension.swift"; sourceTree = "<group>"; };
+		17BD1CA92AD5E0B7004E8203 /* DeviceSortable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSortable.swift; sourceTree = "<group>"; };
+		17BD1CAC2AD65526004E8203 /* SortOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOptionsViewController.swift; sourceTree = "<group>"; };
+		17BD1CAD2AD65526004E8203 /* SortOptionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SortOptionsViewController.xib; sourceTree = "<group>"; };
+		17BD1CB12AD6FA84004E8203 /* PeripheralAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralAdapter.swift; sourceTree = "<group>"; };
+		17BD1CB62AD70D1B004E8203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		17BD1CBE2AD710D2004E8203 /* MockBluetoothFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBluetoothFacade.swift; sourceTree = "<group>"; };
+		17BD1CC22AD71E4B004E8203 /* SortOptionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortOptionsViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +137,7 @@
 		17BD1C532AD25100004E8203 /* BluetoothConnect */ = {
 			isa = PBXGroup;
 			children = (
+				17BD1CB02AD6FA6F004E8203 /* Models */,
 				17BD1C932AD34A84004E8203 /* Extensions */,
 				17BD1C8B2AD34282004E8203 /* Screens */,
 				17BD1C842AD2510C004E8203 /* Bluetooth */,
@@ -129,6 +148,7 @@
 				17BD1C5D2AD25103004E8203 /* Assets.xcassets */,
 				17BD1C5F2AD25103004E8203 /* LaunchScreen.storyboard */,
 				17BD1C622AD25103004E8203 /* Info.plist */,
+				17BD1CB72AD70D1B004E8203 /* Localizable.strings */,
 			);
 			path = BluetoothConnect;
 			sourceTree = "<group>";
@@ -137,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				17BD1C6B2AD25104004E8203 /* BluetoothConnectTests.swift */,
+				17BD1CBE2AD710D2004E8203 /* MockBluetoothFacade.swift */,
+				17BD1CC22AD71E4B004E8203 /* SortOptionsViewModelTests.swift */,
 			);
 			path = BluetoothConnectTests;
 			sourceTree = "<group>";
@@ -154,8 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				17BD1C852AD25125004E8203 /* BluetoothManager.swift */,
-				17BD1C872AD32AFF004E8203 /* BluetoothAuthorization.swift */,
 				17BD1C892AD330FD004E8203 /* BluetoothFacade.swift */,
+				17BD1CA72AD4F912004E8203 /* CBCharacteristicProperties+extension.swift */,
 			);
 			path = Bluetooth;
 			sourceTree = "<group>";
@@ -163,7 +185,9 @@
 		17BD1C8B2AD34282004E8203 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				17BD1CAB2AD654FA004E8203 /* SortOptions */,
 				17BD1C962AD45032004E8203 /* DevieList */,
+				17BD1CA02AD4A9E6004E8203 /* ShowDevice */,
 				17BD1C8C2AD3456C004E8203 /* BluetoothScan */,
 			);
 			path = Screens;
@@ -203,6 +227,33 @@
 				17BD1C9D2AD465C8004E8203 /* DeviceTableViewCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		17BD1CA02AD4A9E6004E8203 /* ShowDevice */ = {
+			isa = PBXGroup;
+			children = (
+				17BD1CA12AD4AA25004E8203 /* ShowDeviceViewController.swift */,
+				17BD1CA22AD4AA25004E8203 /* ShowDeviceViewController.xib */,
+			);
+			path = ShowDevice;
+			sourceTree = "<group>";
+		};
+		17BD1CAB2AD654FA004E8203 /* SortOptions */ = {
+			isa = PBXGroup;
+			children = (
+				17BD1CA92AD5E0B7004E8203 /* DeviceSortable.swift */,
+				17BD1CAC2AD65526004E8203 /* SortOptionsViewController.swift */,
+				17BD1CAD2AD65526004E8203 /* SortOptionsViewController.xib */,
+			);
+			path = SortOptions;
+			sourceTree = "<group>";
+		};
+		17BD1CB02AD6FA6F004E8203 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				17BD1CB12AD6FA84004E8203 /* PeripheralAdapter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +361,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BD1C612AD25103004E8203 /* LaunchScreen.storyboard in Resources */,
+				17BD1CAF2AD65526004E8203 /* SortOptionsViewController.xib in Resources */,
+				17BD1CA42AD4AA25004E8203 /* ShowDeviceViewController.xib in Resources */,
 				17BD1C9F2AD465C8004E8203 /* DeviceTableViewCell.xib in Resources */,
+				17BD1CB52AD70D1B004E8203 /* Localizable.strings in Resources */,
 				17BD1C5E2AD25103004E8203 /* Assets.xcassets in Resources */,
 				17BD1C902AD34590004E8203 /* BluetoothScanViewController.xib in Resources */,
 				17BD1C9A2AD4507F004E8203 /* DeviceListViewController.xib in Resources */,
@@ -340,15 +394,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				17BD1C952AD34AA3004E8203 /* String+extension.swift in Sources */,
+				17BD1CB22AD6FA84004E8203 /* PeripheralAdapter.swift in Sources */,
 				17BD1C592AD25100004E8203 /* ViewController.swift in Sources */,
 				17BD1C992AD4507F004E8203 /* DeviceListViewController.swift in Sources */,
+				17BD1CA82AD4F912004E8203 /* CBCharacteristicProperties+extension.swift in Sources */,
 				17BD1C8F2AD34590004E8203 /* BluetoothScanViewController.swift in Sources */,
-				17BD1C882AD32AFF004E8203 /* BluetoothAuthorization.swift in Sources */,
 				17BD1C9E2AD465C8004E8203 /* DeviceTableViewCell.swift in Sources */,
 				17BD1C8A2AD330FD004E8203 /* BluetoothFacade.swift in Sources */,
 				17BD1C552AD25100004E8203 /* AppDelegate.swift in Sources */,
+				17BD1CA32AD4AA25004E8203 /* ShowDeviceViewController.swift in Sources */,
 				17BD1C862AD25125004E8203 /* BluetoothManager.swift in Sources */,
 				17BD1C572AD25100004E8203 /* SceneDelegate.swift in Sources */,
+				17BD1CAA2AD5E0B7004E8203 /* DeviceSortable.swift in Sources */,
+				17BD1CAE2AD65526004E8203 /* SortOptionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +414,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17BD1CC32AD71E4B004E8203 /* SortOptionsViewModelTests.swift in Sources */,
+				17BD1CBF2AD710D2004E8203 /* MockBluetoothFacade.swift in Sources */,
 				17BD1C6C2AD25104004E8203 /* BluetoothConnectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +459,14 @@
 				17BD1C602AD25103004E8203 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		17BD1CB72AD70D1B004E8203 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BD1CB62AD70D1B004E8203 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -523,10 +591,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76H6T7GF42;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BluetoothConnect/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access is needed to scan and connect to nearby devices";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Access is needed to scan and connect to nearby devices";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -539,8 +610,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onaissi.BluetoothConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onaissi.bluetoothConnect6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,10 +624,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76H6T7GF42;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BluetoothConnect/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Access is needed to scan and connect to nearby devices";
 				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Access is needed to scan and connect to nearby devices";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -568,8 +643,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.onaissi.BluetoothConnect;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onaissi.bluetoothConnect6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
